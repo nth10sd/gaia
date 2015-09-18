@@ -238,7 +238,7 @@ var MessageManager = {
    *     . recipient (string): the recipient used for this transmission.
    */
   sendSMS: function mm_send(opts) {
-    var recipients = opts.recipients || [],
+    /*var recipients = opts.recipients || [],
         content = opts.content,
         serviceId = this._sanitizeServiceId(opts.serviceId),
         onsuccess = opts.onsuccess,
@@ -291,7 +291,7 @@ var MessageManager = {
         }
         i++;
       };
-    });
+    });*/
   },
 
   /*
@@ -312,7 +312,7 @@ var MessageManager = {
    */
 
   sendMMS: function mm_sendMMS(opts) {
-    var request;
+    /*var request;
     var recipients = opts.recipients,
         subject = opts.subject,
         content = opts.content,
@@ -341,7 +341,7 @@ var MessageManager = {
 
     request.onerror = function onError(event) {
       onerror && onerror(event.target.error);
-    };
+    };*/
   },
 
   // takes a formatted message in case you happen to have one

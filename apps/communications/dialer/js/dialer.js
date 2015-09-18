@@ -358,8 +358,8 @@ var CallHandler = (function callHandler() {
     };
 
     LazyLoader.load(['/dialer/js/telephony_helper.js'], function() {
-      TelephonyHelper.call(
-        number, cardIndex, oncall, connected, disconnected, error);
+/*      TelephonyHelper.call(
+        number, cardIndex, oncall, connected, disconnected, error);*/
     });
   }
 
